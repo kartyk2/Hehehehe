@@ -1,0 +1,300 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+\documentclass{article}
+\usepackage{fontawesome5}
+\usepackage{xcolor}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    {\Huge \scshape Kartik Kumar} \\ \vspace{1pt}
+    Kolkata, WB \\ \vspace{10pt}
+    \small \raisebox{-0.1\height}\faPhone\ +91-8918888012 ~ \href{mailto:kartik.official.acc@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{kartik.official.acc@gmail.com}} ~ \\
+    \href{https://www.linkedin.com/in/kartik-kumar-gcelt/}{\raisebox{-0.2\height}\faLinkedin\ \underline{linkedin | kartik kumar}}  ~
+    \href{https://leetcode.com/kartyk/}{\raisebox{-0.2\height}\ \underline{Leetcode/kartyk}}  ~
+    \vspace{5pt}
+\end{center}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+\resumeSubheading
+{Government College of Engineering and Leather Technology}{Jun 2019 -- Jun 2023}
+{Bachelor of Technology in Information Technology}{Kolkata, WB}
+\vspace{5pt}
+
+\textbf{Relevant Coursework:}
+\begin{itemize}
+  \item Database Management Systems
+  \item Operating Systems
+  \item Algorithms and Data Structures
+\end{itemize}
+
+\textbf{Overall GPA:} 9.1/10.0 (Average till 7th semester)
+
+    %\resumeSubHeadingListEnd
+
+    \resumeSubheading
+      {Raniganj Marwari Sanatan Vidyalaya}{Apr 2016 -- Apr 2018}
+      {Higher Secondary}{Raniganj, WB}
+    \vspace{5pt}
+    %\resumeSubHeadingListStart
+        \begin{multicols}{4}
+            \begin{itemize}
+                \item\small XII: 66\%   (2018),\\ X: 83.7\%    (2016)
+
+            \end{itemize}
+        \end{multicols}
+        \vspace*{2.0\multicolsep}
+    %\resumeSubHeadingListEnd
+      
+  \resumeSubHeadingListEnd
+
+% %------RELEVANT COURSEWORK-------
+% \section{Relevant Coursework}
+%     %\resumeSubHeadingListStart
+%         \begin{multicols}{3}
+%             \begin{itemize}[itemsep= 5pt, parsep=5pt]
+%                 \item\small Object-Oriented-Programming
+%                 \item Database Management Systems
+%                 \item Java
+%                 \item Operating Systems
+%                 \item Python
+%                 \item Algorithm Analysis
+%             \end{itemize}
+%         \end{multicols}
+%         \vspace*{2.0\multicolsep}
+%     %\resumeSubHeadingListEnd
+
+
+% %-----------EXPERIENCE-----------
+% \section{Experience}
+%   \resumeSubHeadingListStart
+
+%     \resumeSubheading
+%       {Electronics Company}{May 2020 -- August 2020}
+%       {Software Engineer Intern}{City, State}
+%       \resumeItemListStart
+%         \resumeItem{Developed a service to automatically perform a set of unit tests daily on a product in development in order to decrease time needed for team members to identify and fix bugs/issues.}
+%         \resumeItem{Incorporated scripts using Python and PowerShell to aggregate XML test results into an organized format and to load the latest build code onto the hardware, so that daily testing can be performed.}
+%         \resumeItem{Utilized Jenkins to provide a continuous integration service in order to automate the entire process of loading the latest build code and test files, running the tests, and generating a report of the results once per day.}
+%         \resumeItem{Explored ways to visualize and send a daily report of test results to team members  using HTML, Javascript, and CSS.}
+%       \resumeItemListEnd
+
+%     \resumeSubheading
+%       {Startup, Inc}{May 2019 -- August 2019}
+%       {Front End Developer Intern}{City, State}
+%       \resumeItemListStart
+%         \resumeItem{Assisted in development of the front end of a mobile application for iOS/Android using Dart and the Flutter framework.}
+%         \resumeItem{Worked with Google Firebase to manage user inputted data across multiple platforms including web and mobile apps.}
+%         \resumeItem{Collaborated with team members using version control systems such as Git to organize modifications and assign tasks.}
+%         \resumeItem{Utilized Android Studio as a development environment in order to visualize the application in both iOS and Android.}
+%     \resumeItemListEnd
+    
+%   \resumeSubHeadingListEnd
+% \vspace{-16pt}
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{E-commerce website} $|$ \emph{MongoDB, FASTAPI, PyJWT, VS Code, github}}{Dec 2022 - Present}
+          \resumeItemListStart
+            \resumeItem{Collaborated with a team of 4 to develop an e-commerce website.}
+            \resumeItem{Responsible for designing and \textbf{implementing the database schema, authentication and developing the backend using FASTAPI and MongoDB.}}
+            
+            \resumeItem{\textbf{Designed and implemented a main products page} for a web application, enabling customers to \textbf{view all products, select by category, and sort by price.}}
+          \resumeItemListEnd
+          \vspace{-13pt}
+      \resumeProjectHeading
+          {\href{https://github.com/kartyk2/FARM-Stack-Project}{\textbf{TODO List Application}} $|$ \emph{Python, MongoDB, FAST API, PyJWT}}{Sep 2022 - Oct 2020}
+          \resumeItemListStart
+            \resumeItem{Developed backend of a TODO list application using \textbf{Python, Flask and MySQL}.}
+            \resumeItem{Responsible for \textbf{developing the 4 backend APIs, authentication, designing and implementing the database}.}
+            \resumeItem{Deployed features such as \textbf{login, user authentication and CRUD operations} on TODOs.}
+          \resumeItemListEnd 
+          \vspace{-13pt}
+          \resumeProjectHeading
+          {\textbf{Movie Ticket Booking System} $|$ \emph{Python, PyCharm }}{Aug 2022 - Sep 2022}
+          \resumeItemListStart
+            \resumeItem{Developed a train ticket booking console application using \textbf{Python and object-oriented programming principles}}
+            \resumeItem{Implemented features such as \textbf{user authentication, seat selection, payment processing, and record keeping}}
+          \resumeItemListEnd 
+    \resumeSubHeadingListEnd
+\vspace{-15pt}
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+    \small{
+    \item{
+        \textbf{Languages}: 
+        \href{https://leetcode.com/kartyk/}{\textcolor{cyan}{Python}}, 
+        \href{https://leetcode.com/kartyk/}{Java}, 
+        \textcolor{cyan}{MySQL}, 
+        MongoDB, Flask, FAST API, HTML/CSS
+    }
+    \\
+    \vspace{5pt}
+    \item{
+        \textbf{Developer Tools}: PyCharm, VS Code
+    }
+    \\
+    \vspace{5pt}
+    \item{
+        \textbf{Miscellaneous}: GitHub, Postman
+    }
+    }
+\end{itemize}
+\vspace{-16pt}
+
+
+%-----------INVOLVEMENT---------------
+\section{Certifications}
+\resumeSubHeadingListStart
+\resumeSubheading{Python}{Nov 2022}{Passed HackerRank skill assessment \href{https://www.hackerrank.com/certificates/B9855AC29BC9}{[ID: B9855AC29BC9]}}{}
+\vspace{5pt}
+
+\resumeSubheading{MySQL}{Nov 2022}{Passed HackerRank skill assessment 
+\href{https://www.hackerrank.com/certificates/c9c28cd1417c}{[ID: E9C28CD1417C]}}
+
+\resumeSubHeadingListEnd
+%-----------INVOLVEMENT---------------
+\section{Leadership / Extracurricular}
+    \resumeSubHeadingListStart
+        \resumeSubheading{Student Welfare Association GCELT}{jul 2020 -- jul 2022}{Assistant Technical Head}{Government College of Engineering and Leather Technology}
+            \resumeItemListStart
+                \resumeItem{Managed college and student welfare associations' websites}
+            \resumeItemListEnd
+\vspace{8pt}
+        \resumeSubheading{Rotaract Club GCELT}{jul 2021 -- Present}{Memeber}{Government College of Engineering and Leather Technology}
+            \resumeItemListStart
+                \resumeItem{Organized events such as blood donation, tree plantation, and recreational events}
+            \resumeItemListEnd
+        
+    \resumeSubHeadingListEnd
+
+
+\end{document}
